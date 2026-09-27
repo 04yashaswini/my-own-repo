@@ -1,0 +1,16 @@
+{
+  "name": "nano-space",
+  "version": "2.0.0",
+  "description": "Nano Space Gallery - JSON-file backed content dashboard",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "multer": "^2.0.1"
+  }
+}
